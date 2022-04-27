@@ -683,12 +683,15 @@ a {
   flex: 33%;
   max-width: 33%;
   padding: 10px 10px;
+
 }
 
 .column img {
   margin-top: 10px;
   vertical-align: middle;
   width: 100%;
+  filter: grayscale(100%);
+  
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
